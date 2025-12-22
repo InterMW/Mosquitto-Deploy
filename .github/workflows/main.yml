@@ -24,9 +24,6 @@ jobs:
       env:
         NODE_USER : ${{secrets.NODE_USER}}
         NODE_PASSWORD : ${{secrets.NODE_PASSWORD}}
-     - 
-      name: Replace Appsettings
-      run: cp ${{env.REPLACESETTINGS}} ${{env.APPSETTINGS}}
      - name: Docker Login
        uses: docker/login-action@v3.0.0
        with:
