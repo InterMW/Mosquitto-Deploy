@@ -1,1 +1,1 @@
-mosquitto_passwd /mosquitto/config/pwfile -c -b #{NODE_USER} #{NODE_PASSWORD}
+mosquitto_passwd -c -b /mosquitto/config/pwfile  #{NODE_USER} #{NODE_PASSWORD}
