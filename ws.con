@@ -1,0 +1,4 @@
+listener 8080 ::1
+bind_address localhost
+protocol websockets
+allow_anonymous false
