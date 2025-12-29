@@ -30,6 +30,8 @@ jobs:
       env:
         NODE_USER : ${{secrets.NODE_USER}}
         NODE_PASSWORD : ${{secrets.NODE_PASSWORD}} 
+        MQTT_USER : ${{secrets.MQTT_USER}}
+        MQTT_PASS : ${{secrets.MQTT_PASS}}
         REPLACESETTINGS: user.sh
      - name: Build and push Docker images
   # You may pin to the exact commit or the version.
